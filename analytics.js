@@ -14,7 +14,7 @@
    loaded and no data leaves the visitor's browser.
    ========================================================= */
 const ANALYTICS = {
-  clarityId: "",   // e.g. "abcd1234ef"
+  clarityId: "zk6zjornr7",   // Microsoft Clarity project ID
   ga4Id: ""        // e.g. "G-XXXXXXXXXX"
 };
 
