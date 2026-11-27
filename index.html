@@ -1,0 +1,1103 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ganesh S Professional Portfolio</title>
+  <meta name="description" content="Ganesh S — PGDM (Marketing & Analytics) at IMI Bhubaneswar. Computer Science engineer turned business analyst, focused on data-driven decisions and growth." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'><rect width='64' height='64' rx='14' fill='%234a86f0'/><text x='50%' y='56%' text-anchor='middle' dominant-baseline='middle' font-family='Georgia' font-weight='700' font-size='30' fill='%23ffffff'>GS</text></svg>" />
+</head>
+<body>
+  <div class="progress" id="progress"></div>
+  <div class="glow" id="glow" aria-hidden="true"></div>
+
+  <!-- ============ NAV ============ -->
+  <header class="nav" id="nav">
+    <a href="#top" class="brand"><span class="brand-mark"><img src="assets/profile.jpg" alt="" /></span><span class="brand-name">Ganesh S</span></a>
+    <nav class="nav-links" id="navLinks">
+      <a href="#about">About</a>
+      <a href="#research">SIP Research</a>
+      <a href="#experience">Experience</a>
+      <a href="#projects">Projects</a>
+      <a href="#playground">Playground</a>
+      <a href="#skills">Skills</a>
+      <a href="#highlights">Highlights</a>
+      <a href="#beyond">Beyond Work</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <div class="nav-actions">
+      <button class="icon-btn" id="themeToggle" aria-label="Toggle light/dark theme">
+        <svg class="i-sun" viewBox="0 0 24 24"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg>
+        <svg class="i-moon" viewBox="0 0 24 24"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/></svg>
+      </button>
+      <a class="btn btn-sm btn-primary hide-sm" href="assets/Ganesh_S_Resume.pdf" download data-loc="nav">Resume</a>
+      <button class="icon-btn menu-btn" id="menuBtn" aria-label="Open menu"><span></span><span></span></button>
+    </div>
+  </header>
+
+  <main id="top">
+    <!-- ============ HERO ============ -->
+    <section class="hero">
+      <div class="hero-grid-bg" aria-hidden="true"></div>
+      <div class="container hero-inner">
+        <div class="hero-copy">
+          <p class="eyebrow reveal"><span class="dot"></span> PGDM · Marketing & Analytics · IMI Bhubaneswar · Class of 2027</p>
+          <h1 class="reveal">
+            Engineer by training.<br />
+            <span class="serif-italic">Manager</span> by choice.
+          </h1>
+          <p class="hero-lead reveal">
+            I'm <strong>Ganesh</strong>, a Computer Science engineer turned management student who turns
+            <span class="rotator" id="rotator">messy data</span> into decisions businesses can act on.
+            I'm especially drawn to <strong>product management</strong>, where tech, users and business meet.
+          </p>
+          <div class="hero-cta reveal">
+            <a class="btn btn-primary" href="#research">See my work <span class="arrow">→</span></a>
+            <a class="btn btn-ghost" href="assets/Ganesh_S_Resume.pdf" download data-loc="hero">Download Resume</a>
+          </div>
+          <ul class="hero-meta reveal">
+            <li><svg viewBox="0 0 24 24"><path d="M12 21s-7-6.2-7-11a7 7 0 0 1 14 0c0 4.8-7 11-7 11z"/><circle cx="12" cy="10" r="2.5"/></svg>Bhubaneswar, India</li>
+            <li><svg viewBox="0 0 24 24"><rect x="3" y="7" width="18" height="13" rx="2"/><path d="M8 7V5a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"/></svg>Open to final placements</li>
+            <li class="hm-tech"><svg viewBox="0 0 24 24"><path d="M13 2 4 14h7l-1 8 9-12h-7z"/></svg>Tech enthusiast · learning daily how tech is evolving</li>
+          </ul>
+        </div>
+
+        <div class="hero-visual reveal" id="heroVisual">
+          <div class="hv-blob" aria-hidden="true"></div>
+          <div class="hv-ring" aria-hidden="true"></div>
+          <figure class="portrait">
+            <img src="assets/profile.jpg" alt="Ganesh S, smiling in a navy suit with arms crossed" width="960" height="1200" />
+            <figcaption>
+              <span class="pc-name">Ganesh S</span>
+              <span class="pc-role">PGDM · Marketing & Analytics</span>
+            </figcaption>
+          </figure>
+
+          <div class="float-card fc-status">
+            <span class="dot"></span>
+            <div><b>Open to roles</b><small>Final placements</small></div>
+          </div>
+
+          <div class="float-card fc-stat">
+            <span class="fc-pm">Product</span>
+            <small>Exploring product<br />management</small>
+          </div>
+
+          <div class="float-card fc-code">
+            <div class="terminal-bar"><i></i><i></i><i></i><span>ganesh.sql</span></div>
+<pre><code><span class="k">SELECT</span> strengths <span class="k">FROM</span> ganesh;
+<span class="o">→</span> ERP change & SAP operations
+<span class="o">→</span> ML for business decisions
+<span class="o">→</span> Product thinking</code></pre>
+          </div>
+
+          <div class="float-card fc-tools">
+            <span>Python</span><span>SQL</span><span>Power BI</span><span>SAP</span><span>GenAI</span><span>Agentic AI</span><span class="t-cc">Claude Code</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="stats stats-3 reveal">
+          <div class="stat"><p class="stat-num"><span data-count="11">0</span> mo</p><p class="stat-label">Full-time experience (FTE) across product, HCM consulting and client support</p></div>
+          <div class="stat"><p class="stat-num">Top <span data-count="8">0</span></p><p class="stat-label">of 50 corporate teams in the Intellion Futsal League 2023</p></div>
+          <div class="stat"><p class="stat-num">National Speaker</p><p class="stat-label">Student panelist at a national-level dialogue, addressing CEOs &amp; CHROs</p></div>
+        </div>
+      </div>
+
+      <a href="#about" class="scroll-cue" aria-label="Scroll down"><span></span></a>
+    </section>
+
+    <!-- ============ ABOUT ============ -->
+    <section class="section" id="about">
+      <div class="container about">
+        <div class="section-head reveal">
+          <p class="kicker">01 — About</p>
+          <h2>The <span class="serif-italic">bridge</span> between<br />code and commerce.</h2>
+        </div>
+        <div class="about-body">
+          <p class="reveal lead">
+            I started out writing code — a B.E. in Computer Science and a year building, configuring and supporting
+            enterprise software. Along the way I noticed the most valuable question was never <em>"can we build it?"</em>
+            but <em>"should we, and what will it return?"</em>
+          </p>
+          <p class="reveal">
+            That's what brought me to a PGDM in <strong>Marketing & Analytics</strong> at IMI Bhubaneswar. Today I combine a
+            technologist's comfort with data, ERP systems and AI with a manager's focus on customers, cost and growth —
+            so I can talk to engineers and executives in the same meeting.
+          </p>
+          <div class="pillars">
+            <div class="pillar reveal">
+              <span class="pillar-icon">◆</span>
+              <h3>Analytical</h3>
+              <p>SQL, Python and ML models — used to answer business questions, not just to produce charts.</p>
+            </div>
+            <div class="pillar reveal">
+              <span class="pillar-icon">◆</span>
+              <h3>Operational</h3>
+              <p>Lived through an SAP Concur go-live and researched how ERP change affects the business. Hands-on with invoice flows and SLA-driven support.</p>
+            </div>
+            <div class="pillar reveal">
+              <span class="pillar-icon">◆</span>
+              <h3>People-first</h3>
+              <p>Sponsorships, partnerships, CSR drives and a national stage — I like rooms with people in them.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ INTERNSHIP RESEARCH ============ -->
+    <section class="section section-alt" id="research">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="kicker">02 — Summer Internship Research</p>
+          <h2>Managing the business impact of <span class="serif-italic">software change</span>.</h2>
+          <p class="section-sub">
+            A study of the <strong>eye-share → SAP Concur</strong> ERP transition at <strong>GS Shipmanagement</strong>
+            (a Genco × Synergy joint venture), carried out from inside the accounts team while the migration was live.
+          </p>
+        </div>
+
+        <!-- meta strip -->
+        <div class="rs-meta reveal">
+          <div><span>Organisation</span><b>GS Shipmanagement · Chennai</b></div>
+          <div><span>Period</span><b>Apr – Jun 2026</b></div>
+          <div><span>Design</span><b>Mixed-method · repeated-measure</b></div>
+          <div><span>Tools</span><b>SPSS · Excel · Google Forms</b></div>
+        </div>
+
+        <!-- dilemma -->
+        <div class="rs-dilemma">
+          <article class="rs-card rs-question reveal">
+            <p class="case-tag">The management dilemma</p>
+            <h3>After go-live, productivity dropped.<br />Was it a <em>learning curve</em> or a <em>bad fit</em>?</h3>
+            <p>
+              The company moved invoice processing from eye-share, a specialist accounts-payable tool, onto SAP Concur as part of
+              a consolidation onto one SAP platform (Concur + Ariba + FICO). Data migration ran alongside live processing, configuration
+              was incomplete at go-live, and training fell short — creating an invoice backlog and vendor payment delays.
+            </p>
+            <p>
+              The two diagnoses call for opposite responses: a <strong>temporary</strong> dip needs patience, while a
+              <strong>permanent</strong> misfit needs investment. Getting it wrong means either spending money you don't need to,
+              or waiting for a recovery that never comes.
+            </p>
+          </article>
+          <div class="rs-numbers">
+            <div class="rs-num reveal"><b>~43</b><span>vessels in the fleet served by the accounts function</span></div>
+            <div class="rs-num reveal"><b>40–60</b><span>days of vendor payment delay after cutover</span></div>
+            <div class="rs-num reveal"><b>23</b><span>survey responses (≈75% of the team); 18 had used both systems</span></div>
+            <div class="rs-num reveal"><b>15 × 4</b><span>parameters, each rated for eye-share, SAP at cutover, SAP today &amp; importance</span></div>
+          </div>
+        </div>
+
+        <!-- framework -->
+        <div class="rs-sub reveal">
+          <p class="kicker">My framework</p>
+          <h3>The Three-Force Decomposition Model</h3>
+          <p>"The new system is worse" is really three different complaints. By measuring each parameter at cutover <em>and</em> today, I could tell which force was behind each one.</p>
+        </div>
+        <div class="forces">
+          <article class="force reveal">
+            <span class="force-n">01</span>
+            <h4>Learning curve</h4>
+            <q>I can't find anything; everything takes longer.</q>
+            <div class="force-foot"><span class="pill-t">Transient</span><span>Remedy: time &amp; practice</span></div>
+          </article>
+          <article class="force reveal">
+            <span class="force-n">02</span>
+            <h4>Data-migration defects</h4>
+            <q>The record is missing; I must verify it manually.</q>
+            <div class="force-foot"><span class="pill-t">Transient</span><span>Remedy: one-off data clean-up</span></div>
+          </article>
+          <article class="force reveal">
+            <span class="force-n">03</span>
+            <h4>Usability &amp; workflow misfit</h4>
+            <q>It's slower and clumsier than the last one.</q>
+            <div class="force-foot"><span class="pill-p">Permanent</span><span>Remedy: reconfiguration</span></div>
+          </article>
+        </div>
+
+        <!-- findings -->
+        <div class="rs-sub reveal">
+          <p class="kicker">What the data said</p>
+          <h3>Findings</h3>
+          <p>Wilcoxon signed-rank tests with effect sizes, importance–performance analysis and Spearman correlations. All scales were 7-point, and four of the five constructs had a Cronbach's α of 0.76–0.96.</p>
+        </div>
+
+        <div class="findings">
+          <!-- F1 capability vs usability -->
+          <article class="fcard reveal">
+            <p class="fcard-k">Finding 1 · Capability was never lost</p>
+            <h4>The whole gap was usability</h4>
+            <div class="cmp">
+              <div class="cmp-group">
+                <p>Capability &amp; compliance <em class="ns">p = 0.92 · no difference</em></p>
+                <div class="cmp-row"><span>eye-share</span><div class="track"><i class="b-old" style="--w:79.4%"></i></div><b>5.56</b></div>
+                <div class="cmp-row"><span>SAP today</span><div class="track"><i class="b-new" style="--w:77.4%"></i></div><b>5.42</b></div>
+              </div>
+              <div class="cmp-group">
+                <p>Usability &amp; experience <em class="sig">p = 0.002 · r = 0.72</em></p>
+                <div class="cmp-row"><span>eye-share</span><div class="track"><i class="b-old" style="--w:88%"></i></div><b>6.16</b></div>
+                <div class="cmp-row"><span>SAP today</span><div class="track"><i class="b-new" style="--w:73.3%"></i></div><b>5.13</b></div>
+              </div>
+            </div>
+            <p class="fcard-note">All 8 statistically significant differences were usability parameters. None of the 7 capability parameters differed.</p>
+          </article>
+
+          <!-- F2 perceptual map -->
+          <article class="fcard reveal">
+            <p class="fcard-k">Finding 2 · The gap is closing</p>
+            <h4>Perceptual map</h4>
+            <svg class="pmap" viewBox="0 0 480 360" role="img" aria-label="Perceptual map: SAP Concur moved from 4.28 usability and 4.94 capability at cutover to 5.13 and 5.42 today; eye-share sits at 6.16 and 5.56; ideal is 7, 7">
+              <defs>
+                <marker id="arr" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" class="pm-arrowhead" /></marker>
+              </defs>
+              <rect x="60" y="30" width="390" height="270" class="pm-bg" rx="8" />
+              <g class="pm-grid">
+                <line x1="125" y1="30" x2="125" y2="300" /><line x1="190" y1="30" x2="190" y2="300" /><line x1="255" y1="30" x2="255" y2="300" /><line x1="320" y1="30" x2="320" y2="300" /><line x1="385" y1="30" x2="385" y2="300" />
+                <line x1="60" y1="255" x2="450" y2="255" /><line x1="60" y1="210" x2="450" y2="210" /><line x1="60" y1="165" x2="450" y2="165" /><line x1="60" y1="120" x2="450" y2="120" /><line x1="60" y1="75" x2="450" y2="75" />
+              </g>
+              <g class="pm-frame"><line x1="60" y1="300" x2="450" y2="300" /><line x1="60" y1="30" x2="60" y2="300" /></g>
+              <g class="pm-axis">
+                <text x="60" y="320">4.0</text><text x="190" y="320">5.0</text><text x="320" y="320">6.0</text><text x="450" y="320">7.0</text>
+                <text x="48" y="304" class="pm-ytick">4.0</text><text x="48" y="214" class="pm-ytick">5.0</text><text x="48" y="124" class="pm-ytick">6.0</text><text x="48" y="34" class="pm-ytick">7.0</text>
+                <text x="255" y="346" class="pm-label">Usability &amp; experience →</text>
+                <text x="16" y="165" class="pm-label" transform="rotate(-90 16 165)">Capability &amp; compliance →</text>
+              </g>
+
+              <!-- remaining gap -->
+              <line x1="206.9" y1="172.2" x2="340.8" y2="159.6" class="pm-gap" />
+              <text x="274" y="154" class="pm-note" text-anchor="middle">remaining gap</text>
+              <!-- recovery -->
+              <line x1="96.4" y1="215.4" x2="191" y2="179" class="pm-move" marker-end="url(#arr)" />
+              <text x="124" y="192" class="pm-note pm-note-acc" text-anchor="middle" transform="rotate(-21 124 192)">recovery +0.85</text>
+
+              <!-- points -->
+              <circle cx="450" cy="30" r="7" class="pm-ideal" />
+              <text x="440" y="54" class="pm-t" text-anchor="end">Ideal (7, 7)</text>
+
+              <circle cx="340.8" cy="159.6" r="9" class="pm-old" />
+              <text x="340.8" y="138" class="pm-t" text-anchor="middle">eye-share</text>
+              <text x="340.8" y="186" class="pm-v" text-anchor="middle">6.16, 5.56</text>
+
+              <circle cx="96.4" cy="215.4" r="8" class="pm-cut" />
+              <text x="72" y="244" class="pm-t" text-anchor="start">SAP at cutover</text>
+              <text x="72" y="261" class="pm-v" text-anchor="start">4.28, 4.94</text>
+
+              <circle cx="206.9" cy="172.2" r="9" class="pm-new" />
+              <text x="206.9" y="200" class="pm-t pm-t-acc" text-anchor="middle">SAP today</text>
+              <text x="206.9" y="217" class="pm-v" text-anchor="middle">5.13, 5.42</text>
+            </svg>
+            <p class="fcard-note">Usability went from <b>4.28 → 5.13</b> (p = 0.001, r = 0.79). The dashed line is the gap that remains.</p>
+          </article>
+
+          <!-- F3 sentiment -->
+          <article class="fcard reveal">
+            <p class="fcard-k">Finding 3 · Users feel the recovery</p>
+            <h4>"Is SAP Concur better than at launch?"</h4>
+            <div class="stack" aria-label="8 much better, 9 better, 5 about the same, 1 worse, 0 much worse">
+              <i style="--w:34.8%" class="s1"></i><i style="--w:39.1%" class="s2"></i><i style="--w:21.7%" class="s3"></i><i style="--w:4.3%" class="s4"></i>
+            </div>
+            <ul class="stack-legend">
+              <li><i class="s1"></i>Much better <b>8</b></li>
+              <li><i class="s2"></i>Better <b>9</b></li>
+              <li><i class="s3"></i>Same <b>5</b></li>
+              <li><i class="s4"></i>Worse <b>1</b></li>
+            </ul>
+            <p class="big-stat"><b>17 of 23</b> say it's better now; only 1 says it's worse.</p>
+          </article>
+
+          <!-- F4 fix list -->
+          <article class="fcard reveal">
+            <p class="fcard-k">Finding 4 · A short fix-list remains</p>
+            <h4>Importance vs. performance</h4>
+            <div class="ipa">
+              <div class="ipa-row">
+                <p><b>Latency</b><span>widest gap · top grievance</span></p>
+                <div class="ipa-track"><i style="--w:67.4%"></i><em style="--x:83.3%"></em></div>
+                <small>4.72 / 5.83</small>
+              </div>
+              <div class="ipa-row">
+                <p><b>Data accuracy</b><span>zero recovery since cutover</span></p>
+                <div class="ipa-track"><i style="--w:73%"></i><em style="--x:83.3%"></em></div>
+                <small>5.11 / 5.83</small>
+              </div>
+              <div class="ipa-row">
+                <p><b>Teachability</b><span>onboarding drains time</span></p>
+                <div class="ipa-track"><i style="--w:69%"></i><em style="--x:77%"></em></div>
+                <small>4.83 / 5.39</small>
+              </div>
+            </div>
+            <p class="ipa-legend"><span><i class="lg-bar"></i>SAP today</span><span><i class="lg-tick"></i>Importance</span></p>
+          </article>
+
+          <!-- F5 human -->
+          <article class="fcard fcard-wide reveal">
+            <p class="fcard-k">Finding 5 · The biggest risk is human, not technical</p>
+            <h4>Workload and job insecurity outscored every software complaint</h4>
+            <div class="human">
+              <div class="gauge" style="--v:5.6"><svg viewBox="0 0 100 100"><circle cx="50" cy="50" r="42" class="g-bg" /><circle cx="50" cy="50" r="42" class="g-fg" /></svg><div><b>5.6</b><span>Workload pressure</span></div></div>
+              <div class="gauge" style="--v:4.8"><svg viewBox="0 0 100 100"><circle cx="50" cy="50" r="42" class="g-bg" /><circle cx="50" cy="50" r="42" class="g-fg" /></svg><div><b>4.8</b><span>Job insecurity</span></div></div>
+              <div class="human-side">
+                <div><span>Satisfaction with SAP Concur</span><b>4.5</b></div>
+                <div><span>Technostress</span><b>4.1</b></div>
+                <div><span>Turnover intention</span><b>4.1</b></div>
+                <div class="hl"><span>Ease of use ↔ satisfaction (Spearman ρ)</span><b>0.63</b></div>
+              </div>
+            </div>
+            <p class="fcard-note">All scores out of 7. The strongest correlation in the study, ease of use ↔ satisfaction, supports the Technology Acceptance Model in a setting where staff had no choice but to use the system.</p>
+          </article>
+        </div>
+
+        <!-- recommendations -->
+        <div class="rs-sub reveal">
+          <p class="kicker">So what?</p>
+          <h3>Seven prioritised recommendations</h3>
+        </div>
+        <div class="recs">
+          <div class="rec-col reveal">
+            <p class="rec-h"><span class="rec-dot d1"></span>Immediate</p>
+            <ol start="1">
+              <li><b>Fix system latency</b> — the widest gap between importance and performance; an infrastructure issue, not a training one.</li>
+              <li><b>Clean the migrated master data</b> — POs, vendor records and invoice history. Time alone won't fix it.</li>
+            </ol>
+          </div>
+          <div class="rec-col reveal">
+            <p class="rec-h"><span class="rec-dot d2"></span>Medium term</p>
+            <ol start="3">
+              <li><b>Role-specific training and process guides</b> for each sub-team, so onboarding new joiners stops draining experienced staff.</li>
+              <li><b>Retention and reassurance</b> — clear communication before experienced people leave and take their process knowledge with them.</li>
+            </ol>
+          </div>
+          <div class="rec-col reveal">
+            <p class="rec-h"><span class="rec-dot d3"></span>Strategic</p>
+            <ol start="5">
+              <li><b>SAP SuccessFactors</b> as the HRMS and payroll portal for seafarers.</li>
+              <li><b>Extend SAP Ariba</b> to replace the in-house Khaas &amp; Ahoy verification portals.</li>
+              <li><b>Close the gap in AI and digital skills</b> so the team can move from transactional work to analytical work.</li>
+            </ol>
+          </div>
+        </div>
+
+        <div class="verdict reveal">
+          <p class="kicker">Verdict</p>
+          <p class="verdict-q">"The destination was correct — it's the <span class="serif-italic">transition</span> that needs investment."</p>
+          <p class="verdict-s">Keep the SAP consolidation strategy. Invest in finishing the transition and in the people running it.</p>
+          <ul class="chips">
+            <li>ERP implementation</li><li>Change management</li><li>SAP Concur</li><li>Technology Acceptance Model</li><li>Task–Technology Fit</li><li>Wilcoxon signed-rank</li><li>Importance–performance analysis</li><li>SPSS</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ EXPERIENCE ============ -->
+    <section class="section" id="experience">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="kicker">03 — Experience</p>
+          <h2>Where I've <span class="serif-italic">shipped</span> work.</h2>
+        </div>
+
+        <ol class="timeline">
+          <li class="tl-item reveal">
+            <div class="tl-date">Apr 2026 — Jun 2026</div>
+            <div class="tl-card">
+              <div class="tl-head">
+                <h3>SAP Finance & Operations Intern</h3>
+                <p class="tl-org">GS Ship Management · Synergy Marine Group</p>
+              </div>
+              <ul>
+                <li>Worked inside the accounts function during the <strong>eye-share → SAP Concur ERP migration</strong>, verifying crew-related invoices (airfare, safety gear, medicals) across SAP Concur, Khaas and Ahoy under a maker–checker control.</li>
+                <li>Helped clear the <strong>post-cutover invoice backlog</strong> alongside Accounts Payable, strengthening accuracy and compliance.</li>
+                <li>Ran a <strong>23-respondent research study</strong> on the migration's business impact. It showed capability parity (p = 0.92), a usability gap that is closing (r = 0.79), and a fix-list of 3 parameters. <a class="inline-link" href="#research">Read the study →</a></li>
+                <li>Analysed vendor <strong>RFQs for port docking services</strong>, comparing quotes and coordinating with vendors and internal stakeholders.</li>
+              </ul>
+              <div class="tags"><span>SAP Concur</span><span>Accounts Payable</span><span>Change management</span></div>
+            </div>
+          </li>
+
+          <li class="tl-item reveal">
+            <div class="tl-date">Apr 2023 — Feb 2024</div>
+            <div class="tl-card">
+              <div class="tl-head">
+                <h3>Trainee</h3>
+                <p class="tl-org">Dexian India Technologies Pvt. Ltd.</p>
+              </div>
+              <ul>
+                <li><strong>D2M Catalyst — Product Builder:</strong> contributed to a client-requested POC for a digital-transformation initiative, building a screen-capture capability that improved documentation, collaboration and knowledge transfer.</li>
+                <li><strong>Certified Workforce HCM PT-102 Application Consultant:</strong> solution configuration, client implementations and testing.</li>
+                <li>Delivered L1 application support to global enterprise clients including <strong>SAP and Deloitte</strong>, resolving incidents within SLAs at a <strong>90%+ correct-resolution rate</strong>.</li>
+              </ul>
+              <div class="tags"><span>Python</span><span>Product POC</span><span>Workforce HCM</span><span>Client Support</span><span>SLAs</span></div>
+            </div>
+          </li>
+
+          <li class="tl-item reveal">
+            <div class="tl-date">Jan 2023 — Mar 2023</div>
+            <div class="tl-card">
+              <div class="tl-head">
+                <h3>Student Intern</h3>
+                <p class="tl-org">Dexian India Technologies Pvt. Ltd.</p>
+              </div>
+              <ul>
+                <li>Full-stack training in <strong>.NET Core and React.js</strong>, plus functional training on HRMS, Workforce Management, Salesforce CRM and Oracle PeopleSoft.</li>
+                <li>Studied the IT-services wing's digital-transformation success stories — project management, SDLC, delivery and post-delivery support.</li>
+              </ul>
+              <div class="tags"><span>.NET Core</span><span>React</span><span>HTML</span><span>CSS</span><span>JavaScript</span><span>SDLC</span><span>ERP HCM</span></div>
+            </div>
+          </li>
+
+          <li class="tl-item reveal">
+            <div class="tl-date">Mar 2022 — May 2022</div>
+            <div class="tl-card">
+              <div class="tl-head">
+                <h3>Summer Intern</h3>
+                <p class="tl-org">Zoho Corporation · Zoho Books team</p>
+              </div>
+              <ul>
+                <li>Worked with the <strong>Zoho Books</strong> team, learning the accounting product from end to end: invoicing, expenses, banking and reports, and how its workflows fit together for small businesses.</li>
+                <li>Built a small <strong>income tax calculator</strong> web app in <strong>HTML, CSS and JavaScript</strong>, with form validation and a clear, instant breakdown of the tax payable.</li>
+                <li>Learned <strong>client-side web development</strong> and <strong>UX/UI best practices</strong>, along with Zoho's approach to clean code and how a product-led SaaS business runs.</li>
+              </ul>
+              <div class="tags"><span>Zoho Books</span><span>HTML</span><span>CSS</span><span>JavaScript</span><span>UX / UI</span><span>SaaS</span></div>
+            </div>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- ============ PROJECTS ============ -->
+    <section class="section section-alt" id="projects">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="kicker">04 — Projects</p>
+          <h2>Models that end in a <span class="serif-italic">decision</span>.</h2>
+        </div>
+
+        <p class="group-label reveal">Academic projects</p>
+
+        <!-- ===== BA project: EV clustering ===== -->
+        <article class="ev reveal">
+          <div class="ev-top">
+            <div class="ev-copy">
+              <p class="case-tag">Business Analytics · End-term team project · PGDM</p>
+              <h3>Mapping India's EV adoption: a K-Means segmentation of 35 states</h3>
+              <p class="pf-tool">VAHAN registration data (MoRTH) · 2021–2025 · Python · scikit-learn</p>
+              <p>
+                EV adoption in India is very uneven. A single national strategy fits almost no state. We took
+                <strong>VAHAN vehicle-registration data</strong> for every state and UT and asked a go-to-market question:
+                <em>which states behave alike, and how should each group be targeted?</em>
+              </p>
+              <p>
+                Using the 2024 EV profile of each state across <strong>9 vehicle categories</strong> (from two- and three-wheelers to buses),
+                we standardised the features and ran <strong>K-Means++ clustering</strong>. The elbow method gave
+                <strong>4 adoption tiers</strong>, and we turned each one into a market strategy.
+              </p>
+            </div>
+
+            <div class="ev-side">
+              <div class="ev-kpis">
+                <div><b>35</b><span>States &amp; UTs</span></div>
+                <div><b>9</b><span>Vehicle-type features</span></div>
+                <div><b>k = 4</b><span>Optimal clusters</span></div>
+                <div><b>52.3</b><span>Inertia (WCSS)</span></div>
+              </div>
+              <div class="elbow">
+                <p class="viz-title">Elbow method · k = 2–7 tested</p>
+                <svg class="eb" viewBox="0 0 480 320" role="img" aria-label="Elbow chart: inertia falls from 91.9 at k=3 to 52.3 at k=4, a drop of 39.6, then only to 41.1 at k=5, a drop of 11.2. k=4 is the elbow.">
+                  <defs>
+                    <linearGradient id="ebFill" x1="0" y1="0" x2="0" y2="1">
+                      <stop offset="0" class="eb-stop-a" />
+                      <stop offset="1" class="eb-stop-b" />
+                    </linearGradient>
+                  </defs>
+                  <rect x="60" y="30" width="390" height="230" rx="8" class="eb-bg" />
+                  <rect x="196" y="30" width="48" height="230" class="eb-band" />
+                  <g class="eb-grid">
+                    <line x1="60" y1="202.5" x2="450" y2="202.5" /><line x1="60" y1="145" x2="450" y2="145" /><line x1="60" y1="87.5" x2="450" y2="87.5" />
+                  </g>
+                  <g class="eb-frame"><line x1="60" y1="260" x2="450" y2="260" /><line x1="60" y1="30" x2="60" y2="260" /></g>
+                  <g class="eb-axis">
+                    <text x="80" y="280">2</text><text x="150" y="280">3</text><text x="220" y="280" class="eb-k4">4</text><text x="290" y="280">5</text><text x="360" y="280">6</text><text x="430" y="280">7</text>
+                    <text x="50" y="264" class="eb-ytick">0</text><text x="50" y="206.5" class="eb-ytick">25</text><text x="50" y="149" class="eb-ytick">50</text><text x="50" y="91.5" class="eb-ytick">75</text><text x="50" y="34" class="eb-ytick">100</text>
+                    <text x="255" y="308" class="eb-label">Number of clusters (k) →</text>
+                    <text x="16" y="145" class="eb-label" transform="rotate(-90 16 145)">Inertia (WCSS) →</text>
+                  </g>
+                  <!-- tested-but-not-shown ticks -->
+                  <g class="eb-tested"><line x1="80" y1="254" x2="80" y2="260" /><line x1="360" y1="254" x2="360" y2="260" /><line x1="430" y1="254" x2="430" y2="260" /></g>
+
+                  <path d="M150 48.6 L220 139.7 L290 165.5 L290 260 L150 260 Z" fill="url(#ebFill)" />
+                  <polyline points="150,48.6 220,139.7 290,165.5" class="eb-line" />
+
+                  <!-- drop annotations -->
+                  <text x="142" y="112" class="eb-drop eb-drop-big" text-anchor="end">−39.6</text>
+                  <text x="142" y="128" class="eb-drop-s" text-anchor="end">big drop</text>
+                  <text x="262" y="140" class="eb-drop" text-anchor="start">−11.2</text>
+                  <text x="262" y="122" class="eb-drop-s" text-anchor="start">small gain</text>
+
+                  <circle cx="150" cy="48.6" r="7" class="eb-pt" />
+                  <text x="136" y="44" class="eb-v" text-anchor="end">91.9</text>
+                  <circle cx="290" cy="165.5" r="7" class="eb-pt" />
+                  <text x="304" y="170" class="eb-v" text-anchor="start">41.1</text>
+
+                  <circle cx="220" cy="139.7" r="16" class="eb-halo" />
+                  <circle cx="220" cy="139.7" r="9" class="eb-best" />
+                  <text x="208" y="168" class="eb-v eb-v-best" text-anchor="end">52.3</text>
+                  <text x="220" y="22" class="eb-callout" text-anchor="middle">Elbow · k = 4</text>
+                </svg>
+                <p class="el-note">The biggest drop comes at k = 4. Going to k = 5 adds little, so 4 tiers it is. k = 2, 6 and 7 were also tested; the deck reports values for k = 3–5.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="ev-pipe">
+            <span>VAHAN data<small>2021–25 registrations</small></span>
+            <span>Feature build<small>9 vehicle categories / state</small></span>
+            <span>StandardScaler<small>mean 0 · sd 1</small></span>
+            <span>K-Means++<small>n_init = 10 · seed 42</small></span>
+            <span class="on">4 tiers → GTM<small>segment-wise strategy</small></span>
+          </div>
+
+          <div class="ev-share">
+            <p class="viz-title">Share of national EV registrations held by each cluster (2024, approx.)</p>
+            <div class="share-bar">
+              <i class="c2" style="--w:43.9%"><b>43.9%</b></i>
+              <i class="c1" style="--w:32.8%"><b>32.8%</b></i>
+              <i class="c3" style="--w:14.6%"><b>14.6%</b></i>
+              <i class="c0" style="--w:8.7%"><b>8.7%</b></i>
+            </div>
+            <ul class="share-legend">
+              <li><i class="c2"></i>Mid-tier actives · 11</li>
+              <li><i class="c1"></i>High performers · 4</li>
+              <li><i class="c3"></i>National giant · 1</li>
+              <li><i class="c0"></i>Micro markets · 19</li>
+            </ul>
+          </div>
+
+          <div class="clusters">
+            <div class="cl cl3">
+              <div class="cl-head"><span class="cl-id">C3</span><span class="cl-n">1 state</span></div>
+              <h4>National giant</h4>
+              <p class="cl-pen"><b>14.55%</b> of India's EV registrations</p>
+              <p class="cl-states">Uttar Pradesh, India's e-rickshaw capital</p>
+              <p class="cl-play"><span>Play</span>Scale e-rickshaw infrastructure, last-mile logistics, and work with the state on a dedicated UP EV policy.</p>
+            </div>
+            <div class="cl cl1">
+              <div class="cl-head"><span class="cl-id">C1</span><span class="cl-n">4 states</span></div>
+              <h4>High performers</h4>
+              <p class="cl-pen"><b>8.21%</b> avg share per state</p>
+              <p class="cl-states">Gujarat, Karnataka, Maharashtra, Tamil Nadu</p>
+              <p class="cl-play"><span>Play</span>Premium EV launches, fast-charger networks, fleet electrification, B2B sales.</p>
+            </div>
+            <div class="cl cl2">
+              <div class="cl-head"><span class="cl-id">C2</span><span class="cl-n">11 states</span></div>
+              <h4>Mid-tier actives</h4>
+              <p class="cl-pen"><b>3.99%</b> avg share per state</p>
+              <p class="cl-states">AP, Assam, Bihar, Delhi, Haryana, Kerala, MP, Odisha, Punjab, Rajasthan, West Bengal</p>
+              <p class="cl-play"><span>Play</span>Best incremental return: dealer expansion, state subsidy top-ups, a focus on three-wheelers.</p>
+            </div>
+            <div class="cl cl0">
+              <div class="cl-head"><span class="cl-id">C0</span><span class="cl-n">19 states &amp; UTs</span></div>
+              <h4>Micro markets</h4>
+              <p class="cl-pen"><b>0.46%</b> avg share per state</p>
+              <p class="cl-states">Mostly the North-East, hill states and small UTs, e.g. Sikkim, Goa, HP, J&amp;K, Ladakh, Puducherry, Uttarakhand</p>
+              <p class="cl-play"><span>Play</span>Long-term seeding: budget EVs, two-wheeler-first, rural &amp; remote infrastructure programmes.</p>
+            </div>
+          </div>
+
+          <div class="ev-insights">
+            <div><b>1 in 7</b><span>EV registrations in India comes from Uttar Pradesh alone, driven by e-rickshaws rather than cars.</span></div>
+            <div><b>~⅓</b><span>of the market sits in just four states (GJ, KA, MH, TN). This is where premium launches and fast charging pay back first.</span></div>
+            <div><b>11 states</b><span>in the mid-tier hold the largest combined share and the most headroom. This is where the next rupee of investment works hardest.</span></div>
+          </div>
+
+          <div class="tags"><span>K-Means</span><span>Unsupervised learning</span><span>Market segmentation</span><span>Python</span><span>scikit-learn</span><span>EV / Mobility</span><span>GTM strategy</span></div>
+        </article>
+
+        <!-- ===== UG project: forest fire detection ===== -->
+        <article class="ff reveal">
+          <div class="ff-copy">
+            <p class="case-tag">Academic project · B.E. CSE · Nalaiya Thiran (Govt. of Tamil Nadu × IBM)</p>
+            <h3>Emerging methods for early detection of forest fires</h3>
+            <p class="pf-tool">Python · YOLO real-time object detection · IBM Watson Cloud</p>
+            <p>
+              Forest fires do their worst damage in the first few minutes, before anyone notices. As part of <strong>Nalaiya Thiran</strong>,
+              a learning-based industry programme run by the Tamil Nadu government with <strong>IBM</strong>, we built a system that
+              watches a video feed, <strong>detects fire in real time with the YOLO algorithm</strong>, and immediately alerts the
+              <strong>forest guard on WhatsApp / SMS</strong>, so a response can start before the fire spreads.
+            </p>
+            <p class="ff-credit">IBM provided the training dataset and a reference Git repository. We built on them to train, integrate and deploy the detection-to-alert pipeline.</p>
+            <div class="tags"><span>Python</span><span>YOLO</span><span>Computer vision</span><span>Object detection</span><span>IBM Watson Cloud</span><span>Alerting (WhatsApp / SMS)</span></div>
+          </div>
+          <div class="ff-flow" aria-label="Detection to alert flow">
+            <div class="ff-step"><span class="ff-ic">◉</span><div><b>Camera feed</b><small>live video frames</small></div></div>
+            <div class="ff-step"><span class="ff-ic">▣</span><div><b>YOLO detector</b><small>real-time fire / smoke detection</small></div></div>
+            <div class="ff-step ff-hot"><span class="ff-ic">▲</span><div><b>Fire detected</b><small>confidence above threshold</small></div></div>
+            <div class="ff-step"><span class="ff-ic">☁</span><div><b>IBM Watson Cloud</b><small>event handling &amp; notification</small></div></div>
+            <div class="ff-step ff-out"><span class="ff-ic">✉</span><div><b>Forest guard alerted</b><small>WhatsApp / SMS, within seconds</small></div></div>
+          </div>
+        </article>
+
+        <p class="group-label reveal">Also built</p>
+
+        <article class="hr reveal">
+          <div class="hr-top">
+            <div class="pf-copy">
+              <p class="case-tag">HR Analytics · Machine Learning · Orange Data Mining</p>
+              <h3>Who's about to leave? An attrition prediction model</h3>
+              <p class="pf-tool">Logistic Regression · trained on labelled history, scored on current staff</p>
+              <p>
+                Replacing an employee is expensive, and by the time someone resigns it's too late to act. I built an end-to-end
+                <strong>Orange workflow</strong> that learns from past employees whose outcome is known (stayed or <strong>left</strong>),
+                then scores the <strong>current, unlabelled workforce</strong> so HR can step in early.
+              </p>
+              <p>
+                Most of the effort went into the data: <strong>imputing missing values</strong>, removing the noisiest 10% of records with
+                <strong>Local Outlier Factor</strong>, and <strong>one-hot encoding</strong> categorical fields such as position, department and
+                recruitment source. Only then did I fit an <strong>L2-regularised logistic regression</strong>, which keeps the model interpretable,
+                and validate it with <strong>stratified k-fold cross-validation</strong> and a confusion matrix.
+              </p>
+            </div>
+            <div class="hr-feats">
+              <p class="viz-title">12 predictors → target: EmploymentStatus (Left)</p>
+              <div class="feat-group"><span>Role &amp; organisation</span><p><i>Position</i><i>Department</i><i>State</i></p></div>
+              <div class="feat-group"><span>Hiring &amp; profile</span><p><i>Recruitment source</i><i>Diversity hire</i><i>Gender</i></p></div>
+              <div class="feat-group"><span>Performance</span><p><i>Performance score</i><i>Units sold (last qtr)</i><i>Projects completed (last qtr)</i><i>Customer satisfaction</i></p></div>
+              <div class="feat-group"><span>Engagement &amp; growth</span><p><i>Engagement score</i><i>Promotion</i></p></div>
+            </div>
+          </div>
+
+          <div class="lanes" aria-label="Orange workflow: training branch and scoring branch">
+            <div class="lane">
+              <span class="lane-tag">Train &amp; validate</span>
+              <ol>
+                <li><b>Labelled data</b><small>past employees</small></li>
+                <li><b>Impute</b><small>fill missing values</small></li>
+                <li><b>Outliers</b><small>LOF · 10% · k = 20</small></li>
+                <li><b>Continuize</b><small>one-hot encoding</small></li>
+                <li><b>Select columns</b><small>EmpID → meta</small></li>
+                <li class="key"><b>Logistic Regression</b><small>Ridge (L2) · C = 1</small></li>
+                <li><b>Test &amp; Score</b><small>stratified k-fold CV</small></li>
+                <li><b>Confusion matrix</b><small>errors by class</small></li>
+              </ol>
+            </div>
+            <div class="lane">
+              <span class="lane-tag lane-b">Score &amp; act</span>
+              <ol>
+                <li><b>Unlabelled data</b><small>current employees</small></li>
+                <li><b>Same pre-processing</b><small>impute · LOF · encode</small></li>
+                <li class="key"><b>Predictions</b><small>trained model applied</small></li>
+                <li><b>Box plot</b><small>risk across groups</small></li>
+                <li class="out"><b>Retention list</b><small>who HR should talk to first</small></li>
+              </ol>
+            </div>
+          </div>
+
+          <div class="hr-why">
+            <div><b>Why logistic regression?</b><span>HR needs to know <em>why</em> someone is flagged, not just that they are. Coefficients show which factors push risk up or down.</span></div>
+            <div><b>Why two branches?</b><span>Training on history and scoring the live workforce with the <em>identical</em> preparation steps mirrors how a model would really be used.</span></div>
+            <div><b>The business link</b><span>Predicted risk turns into a ranked retention list, so managers can act before resignations and save on hiring costs.</span></div>
+          </div>
+
+          <div class="tags"><span>Orange</span><span>Logistic Regression</span><span>Classification</span><span>Outlier detection (LOF)</span><span>Cross-validation</span><span>HR Analytics</span></div>
+        </article>
+
+        <div class="project-grid">
+          <article class="project-card reveal">
+            <div class="pc-top"><span class="pc-icon">⌁</span><span class="pc-type">Product POC · Dexian</span></div>
+            <h3>Screen-Capture Capability for Digital Transformation</h3>
+            <p>Part of the D2M Catalyst product team — built a client-requested proof of concept that made documentation, collaboration and knowledge transfer easier.</p>
+            <div class="tags"><span>Product building</span><span>Client POC</span></div>
+          </article>
+          <article class="project-card reveal">
+            <div class="pc-top"><span class="pc-icon">◎</span><span class="pc-type">Thought leadership · 2026</span></div>
+            <h3>The Workplace We Will Inherit</h3>
+            <p>National-level panel on young voices, AI, careers and the future of work — at the 14th Maruti Suzuki XISS Awanish Kumar Dev Memorial Lecture.</p>
+            <div class="tags"><span>AI & Work</span><span>Public speaking</span></div>
+          </article>
+          <article class="project-card reveal add-card">
+            <div class="pc-top"><span class="pc-icon">＋</span><span class="pc-type">Coming soon</span></div>
+            <h3>Next up: Marketing analytics</h3>
+            <p>More PGDM live projects and coursework, such as campaign analytics and Power BI dashboards, will be added here.</p>
+            <div class="tags"><span>Power BI</span><span>Campaign analytics</span></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ PLAYGROUND ============ -->
+    <section class="section playground" id="playground">
+      <div class="pg-grid-bg" aria-hidden="true"></div>
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="kicker">05 — Playground</p>
+          <h2>Where I build, research and <span class="serif-italic">tinker</span>, for fun.</h2>
+          <p class="section-sub">Side projects I'm working on because I'm curious: products I wish existed, research I want to publish, and experiments with new tools.</p>
+        </div>
+
+        <!-- ===== 1. Interview-prep platform ===== -->
+        <article class="lab lab-prep reveal">
+          <div class="lab-copy">
+            <div class="lab-status"><span class="st st-build"><i></i>Building</span><span class="lab-type">Product · EdTech</span></div>
+            <h3>A next-gen interview-prep platform for PGDM / MBA students</h3>
+            <p>
+              Engineers have LeetCode, HackerRank and GeeksforGeeks. B-school students preparing for placements mostly have
+              scattered PDFs and WhatsApp forwards. I'm building a <strong>prep and knowledge-sharing platform made for
+              management interviews</strong>, with <strong>gamification</strong> to make daily practice something you look forward to.
+            </p>
+            <ul class="lab-feats">
+              <li><span>🎯</span><div><b>Practice tracks</b><small>Domain questions, case studies and guesstimates</small></div></li>
+              <li><span>🔥</span><div><b>Streaks &amp; XP</b><small>Daily goals, levels and badges that build a habit</small></div></li>
+              <li><span>🏆</span><div><b>Leaderboards</b><small>Friendly competition within and across campuses</small></div></li>
+              <li><span>🤝</span><div><b>Knowledge sharing</b><small>Seniors' interview experiences and peer answers</small></div></li>
+            </ul>
+            <div class="tags"><span>Product management</span><span>Gamification</span><span>EdTech</span><span>Claude Code</span></div>
+          </div>
+
+          <!-- mock app UI -->
+          <div class="mock" aria-hidden="true">
+            <div class="mock-bar"><i></i><i></i><i></i><span>prep.app / dashboard</span></div>
+            <div class="mock-body">
+              <div class="mock-row">
+                <div class="streak"><span class="flame">🔥</span><div><b><span data-count="21">0</span>-day</b><small>streak</small></div></div>
+                <div class="level"><small>Level 7 · Analyst</small><div class="xp"><i></i></div><small class="xp-t">1,840 / 2,400 XP</small></div>
+              </div>
+              <div class="qcard">
+                <span class="q-tag">Guesstimate · Medium</span>
+                <p>Estimate the number of sneakers sold in Bengaluru in a year.</p>
+                <div class="q-actions"><span class="q-btn">Attempt</span><span class="q-xp">+40 XP</span></div>
+              </div>
+              <div class="board">
+                <p class="board-h">Campus leaderboard · this week</p>
+                <div class="lb"><span>1</span><b>Aarav</b><em>2,310</em></div>
+                <div class="lb me"><span>2</span><b>You</b><em>1,840</em></div>
+                <div class="lb"><span>3</span><b>Diya</b><em>1,705</em></div>
+              </div>
+              <div class="badge-pop">🏅 Badge unlocked: <b>Case Cracker</b></div>
+            </div>
+            <p class="mock-cap">Concept preview · illustrative data</p>
+          </div>
+        </article>
+
+        <!-- ===== 2. Capstone research ===== -->
+        <article class="lab lab-nike reveal">
+          <div class="lab-copy">
+            <div class="lab-status"><span class="st st-research"><i></i>Researching · aiming to publish</span><span class="lab-type">PGDM Capstone · Field research</span></div>
+            <h3>Can India help Nike win back its edge?</h3>
+            <p class="lab-sub">Brand, channels and switching among Indian customers</p>
+            <p>
+              Nike's share of global sports footwear has fallen for three straight years, while Adidas, On and Hoka gained ground.
+              India is one of its biggest growth levers, yet there is little research on how buyers in markets like India see
+              the brand, where they buy it and why they switch. My capstone sets out to answer that, and to <strong>publish the work as a
+              research paper</strong>.
+            </p>
+            <div class="nike-stats">
+              <div><b>22.9%</b><span>Nike's global sports-footwear share in 2025, its 3rd straight decline</span></div>
+              <div><b>~$3.98B</b><span>India's sneaker market, and still growing</span></div>
+              <div><b>~250</b><span>sneaker buyers surveyed, plus 6–8 retail-staff interviews</span></div>
+            </div>
+          </div>
+
+          <div class="nike-side">
+            <div class="constructs">
+              <p class="viz-title">What I'm measuring</p>
+              <div class="cons">
+                <div class="con"><span>01</span><b>Brand equity</b><small>How Indian buyers perceive Nike vs rivals</small></div>
+                <div class="con-arrow">→</div>
+                <div class="con"><span>02</span><b>Channel perception</b><small>Stores, e-commerce and marketplaces</small></div>
+                <div class="con-arrow">→</div>
+                <div class="con con-hot"><span>03</span><b>Switching intention</b><small>Why buyers move to Adidas, On, Hoka…</small></div>
+              </div>
+            </div>
+            <div class="road">
+              <p class="viz-title">Research roadmap</p>
+              <ol>
+                <li><b>Industry review</b><small>global and Indian sneaker market, Nike's strategic decisions</small></li>
+                <li><b>Field research</b><small>buyer survey and store-staff interviews</small></li>
+                <li><b>Analysis</b><small>brand equity, channels, switching</small></li>
+                <li class="goal"><b>5-year roadmap for Nike India</b><small>positioning, product lines, channels, new markets, measurable targets</small></li>
+                <li class="goal"><b>Research paper</b><small>submit for publication</small></li>
+              </ol>
+            </div>
+          </div>
+          <div class="tags lab-tags"><span>Consumer research</span><span>Brand equity</span><span>Channel strategy</span><span>Brand switching</span><span>Survey design</span><span>Strategy</span></div>
+        </article>
+
+        <!-- ===== 3. small experiments ===== -->
+        <div class="lab-mini">
+          <article class="mini reveal">
+            <div class="lab-status"><span class="st st-live"><i></i>Live</span><span class="lab-type">Web · Personal brand</span></div>
+            <h4>This portfolio</h4>
+            <p>Designed and built from scratch in HTML, CSS and JavaScript with <strong>Claude Code</strong>, including theming, motion and data-driven charts. It's my sandbox for UI/UX ideas.</p>
+          </article>
+          <article class="mini mini-next reveal">
+            <div class="lab-status"><span class="st st-idea"><i></i>Next</span><span class="lab-type">Always experimenting</span></div>
+            <h4>Agentic AI experiments</h4>
+            <p>Trying out AI agents and new tools as they come out, and writing down what's useful for business and product work.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ SKILLS ============ -->
+    <section class="section" id="skills">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="kicker">06 — Skills & Certifications</p>
+          <h2>A <span class="serif-italic">hybrid</span> toolkit.</h2>
+        </div>
+
+        <div class="skills-grid">
+          <div class="skill-group reveal">
+            <h3>Analytics & Data</h3>
+            <ul class="pills"><li>Python</li><li>SQL</li><li>R programming</li><li>Power BI</li><li>Tableau</li><li>Excel</li><li>SPSS</li><li>Jamovi</li><li>Orange</li><li>Google Colab</li></ul>
+          </div>
+          <div class="skill-group reveal">
+            <h3>Research Methods</h3>
+            <ul class="pills"><li>Survey design</li><li>Wilcoxon signed-rank</li><li>Spearman correlation</li><li>Cronbach's α</li><li>Importance–performance analysis</li><li>Perceptual mapping</li><li>Quantitative analysis</li><li>Statistics</li></ul>
+          </div>
+          <div class="skill-group reveal">
+            <h3>AI</h3>
+            <ul class="pills"><li>Generative AI</li><li>Agentic AI</li><li>Claude Code</li><li>Prompting for business</li></ul>
+          </div>
+          <div class="skill-group reveal">
+            <h3>Enterprise Systems</h3>
+            <ul class="pills"><li>SAP ERP</li><li>SAP Concur</li><li>HCM</li><li>ADP – WorkForce Software</li></ul>
+          </div>
+          <div class="skill-group reveal">
+            <h3>Business</h3>
+            <ul class="pills"><li>Product management</li><li>Business strategy</li><li>Marketing strategy</li><li>New product development</li><li>Design thinking</li><li>Enterprise sales</li><li>Stakeholder management</li><li>User acceptance testing (UAT)</li></ul>
+          </div>
+        </div>
+
+        <div class="certs">
+          <div class="cert reveal"><span class="cert-badge">SQL</span><div><h4>SQL (Basic)</h4><p>HackerRank</p></div></div>
+          <div class="cert reveal"><span class="cert-badge">TAB</span><div><h4>Fundamentals of Visualization with Tableau</h4><p>UC Davis</p></div></div>
+          <div class="cert reveal"><span class="cert-badge">PY</span><div><h4>Python: Zero to Hero</h4><p>Udemy</p></div></div>
+          <div class="cert reveal"><span class="cert-badge">BI</span><div><h4>Data Visualization Fundamentals</h4><p>Power BI</p></div></div>
+          <div class="cert reveal"><span class="cert-badge">ML</span><div><h4>ML with Python for Managers</h4><p>SWAYAM</p></div></div>
+          <div class="cert reveal"><span class="cert-badge">HCM</span><div><h4>Workforce HCM PT-102 Application Consultant</h4><p>Certified · Dexian</p></div></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ HIGHLIGHTS ============ -->
+    <section class="section section-alt" id="highlights">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="kicker">07 — Leadership & Highlights</p>
+          <h2>Beyond the <span class="serif-italic">classroom</span>.</h2>
+        </div>
+
+        <div class="bento">
+          <article class="bento-card big reveal">
+            <div class="big-copy">
+              <p class="case-tag">Award · 2026</p>
+              <h3>National-Level Student Panelist</h3>
+              <p>Chosen to represent young management professionals at the <strong>14th Maruti Suzuki XISS Awanish Kumar Dev Memorial Lecture</strong>, Bhubaneswar, speaking to an audience of corporate CEOs and CHROs.</p>
+            </div>
+            <div class="big-side">
+              <div class="big-topic">
+                <span>Panel topic</span>
+                <p>"The Workplace We Will Inherit: Young Voices on AI, Career, and Future of Work"</p>
+              </div>
+              <div class="big-facts">
+                <div><b>National</b><span>level dialogue</span></div>
+                <div><b>CEOs &amp; CHROs</b><span>in the audience</span></div>
+              </div>
+            </div>
+          </article>
+          <article class="bento-card reveal">
+            <p class="case-tag">Member · Jul 2025 – Dec 2025</p>
+            <h3>Sports Committee, IMI Bhubaneswar</h3>
+            <p>Led event management, sponsorship development and external partnerships for inter-institutional sporting events, from outreach to on-field execution.</p>
+            <ul class="bt-list">
+              <li>Team outreach &amp; sponsorships</li>
+              <li>External partnerships</li>
+              <li>Logistics &amp; on-field operations</li>
+            </ul>
+          </article>
+          <article class="bento-card reveal">
+            <p class="case-tag">Member · Sep 2025 – Feb 2026</p>
+            <h3>Literary Club, IMI Bhubaneswar</h3>
+            <p>Wrote for the club, ran events and started something new, all aimed at making a hectic PGDM schedule a little lighter.</p>
+            <ul class="bt-list">
+              <li><b>Article:</b> books every management student must read, and the top management lessons they teach</li>
+              <li><b>Fun event:</b> a series of games and activities to turn a packed PGDM day into a fun one</li>
+              <li><b>Anime Night:</b> took the initiative to organise it, a first for the club</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ EXTRA-CURRICULAR ============ -->
+    <section class="section" id="beyond">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="kicker">08 — Extra-curricular</p>
+          <h2>Off the clock, <span class="serif-italic">on the pitch</span>.</h2>
+          <p class="section-sub">Football has been a constant from campus to corporate to B-school, alongside a few years of community service and some quieter obsessions.</p>
+        </div>
+
+        <!-- football journey -->
+        <article class="pitch-card reveal">
+          <div class="pitch-head">
+            <div>
+              <p class="case-tag">Football · 2019 → today</p>
+              <h3>From zonal grounds to corporate leagues to B-school fests</h3>
+            </div>
+            <div class="pitch-score" aria-hidden="true"><span>UG</span><i>→</i><span>Corp</span><i>→</i><span>PGDM</span></div>
+          </div>
+
+          <div class="pitch" aria-hidden="true">
+            <div class="pitch-lines"><i class="pl-mid"></i><i class="pl-circle"></i><i class="pl-box l"></i><i class="pl-box r"></i></div>
+            <div class="ball"><span>⚽</span></div>
+            <div class="pitch-dots"><i></i><i></i><i></i></div>
+          </div>
+
+          <div class="stages">
+            <div class="stage">
+              <span class="stage-k">Undergrad · Velammal Engineering College</span>
+              <h4>Zonal &amp; Inter-zonal</h4>
+              <p>Represented the college football team at <strong>zonal</strong> and <strong>inter-zonal</strong> level tournaments.</p>
+              <div class="stage-tags"><span>Zonal</span><span>Inter-zonal</span></div>
+            </div>
+            <div class="stage">
+              <span class="stage-k">Corporate · Dexian</span>
+              <h4>Intellion Futsal League</h4>
+              <p>Played the <strong>2023 and 2024</strong> editions. In 2023 we finished in the <strong>top 8 of 50 corporate teams</strong> in the league stage.</p>
+              <div class="stage-tags"><span>2023 · Top 8 / 50</span><span>2024</span></div>
+            </div>
+            <div class="stage">
+              <span class="stage-k">PGDM · IMI Bhubaneswar</span>
+              <h4>Inter-B-school fests</h4>
+              <p>Represented IMI Bhubaneswar at <strong>Athlos</strong> (XIM University) and the <strong>flagship sports event of Birla Global University</strong>, both in Bhubaneswar.</p>
+              <div class="stage-tags"><span>Athlos · XIMB</span><span>BGU flagship</span></div>
+            </div>
+          </div>
+        </article>
+
+        <div class="beyond-grid">
+          <!-- YRC -->
+          <article class="yrc reveal">
+            <div class="yrc-top">
+              <span class="yrc-cross" aria-hidden="true"></span>
+              <div>
+                <p class="case-tag">Volunteering · 2019 – 2022</p>
+                <h3>Youth Red Cross, VEC</h3>
+              </div>
+            </div>
+            <svg class="pulse" viewBox="0 0 300 40" aria-hidden="true"><path d="M0 20 H90 L102 6 L114 34 L126 20 H170 L180 12 L190 28 L198 20 H300" /></svg>
+            <p>Worked with NGOs and community stakeholders to run CSR initiatives across four years of engineering, building leadership, stakeholder management and event coordination.</p>
+            <ul class="yrc-acts">
+              <li><span>🩸</span>Blood donation camps</li>
+              <li><span>🌊</span>Lake-cleaning drives</li>
+              <li><span>🎨</span>Orphanage painting</li>
+              <li><span>🦟</span>Dengue awareness</li>
+            </ul>
+          </article>
+
+          <!-- interests -->
+          <div class="interests">
+            <article class="interest reveal">
+              <div class="int-anim book" aria-hidden="true"><i class="pg p1"></i><i class="pg p2"></i><i class="pg p3"></i></div>
+              <div><h4>Reading</h4><p>Books are where I borrow other people's decades of experience.</p></div>
+            </article>
+            <article class="interest reveal">
+              <div class="int-anim reel" aria-hidden="true">
+                <svg viewBox="0 0 48 48"><circle cx="24" cy="24" r="20" /><circle cx="24" cy="24" r="4" /><circle cx="24" cy="12" r="4.5" /><circle cx="24" cy="36" r="4.5" /><circle cx="12" cy="24" r="4.5" /><circle cx="36" cy="24" r="4.5" /></svg>
+              </div>
+              <div><h4>Watching movies</h4><p>Great storytelling, and a lesson in how audiences are won.</p></div>
+            </article>
+            <article class="interest reveal">
+              <div class="int-anim trip" aria-hidden="true">
+                <svg viewBox="0 0 80 48"><path d="M6 40 Q40 -6 74 30" /></svg>
+                <span class="plane">✈</span>
+              </div>
+              <div><h4>Travelling</h4><p>New places, new people and new perspectives.</p></div>
+            </article>
+            <article class="interest reveal">
+              <div class="int-anim term" aria-hidden="true"><span>&gt;_</span><i class="caret"></i></div>
+              <div><h4>Tech enthusiast</h4><p>Learning something new every day about how tech is evolving, from AI agents to tools like Claude Code.</p></div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ EDUCATION ============ -->
+    <section class="section" id="education">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="kicker">09 — Education</p>
+          <h2>The <span class="serif-italic">foundation</span>.</h2>
+        </div>
+        <div class="edu-grid">
+          <div class="edu reveal">
+            <span class="edu-year">2027</span>
+            <h3>PGDM — Marketing & Analytics</h3>
+            <p>International Management Institute (IMI), Bhubaneswar</p>
+            <span class="edu-score">66.48%</span>
+          </div>
+          <div class="edu reveal">
+            <span class="edu-year">2023</span>
+            <h3>B.E. — Computer Science & Engineering</h3>
+            <p>Velammal Engineering College</p>
+            <span class="edu-score">82.10%</span>
+          </div>
+          <div class="edu reveal">
+            <span class="edu-year">2019</span>
+            <h3>Class XII — CBSE</h3>
+            <p>Velammal Vidhyashram</p>
+            <span class="edu-score">71.40%</span>
+          </div>
+          <div class="edu reveal">
+            <span class="edu-year">2017</span>
+            <h3>Class X — CBSE</h3>
+            <p>Velammal Vidhyashram</p>
+            <span class="edu-score">95.00%</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ CONTACT ============ -->
+    <section class="section contact" id="contact">
+      <div class="container contact-inner reveal">
+        <p class="kicker">10 — Contact</p>
+        <h2>Let's build something <span class="serif-italic">measurable</span>.</h2>
+        <p class="section-sub">Recruiting for marketing, analytics, consulting or product roles? I'd love to talk.</p>
+        <div class="contact-actions">
+          <a class="btn btn-primary btn-lg" href="mailto:ganesh084.p25@imibh.edu.in">ganesh084.p25@imibh.edu.in</a>
+          <button class="btn btn-ghost btn-lg" id="copyEmail" data-email="ganesh084.p25@imibh.edu.in">Copy email</button>
+        </div>
+        <div class="socials">
+          <a href="https://www.linkedin.com/in/ganesh-s-38a2961a1" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="3"/><path d="M8 10v7M8 7v.01M12 17v-4a2 2 0 0 1 4 0v4M12 10v7"/></svg>LinkedIn
+          </a>
+          <a href="assets/Ganesh_S_Resume.pdf" download data-loc="contact">
+            <svg viewBox="0 0 24 24"><path d="M14 3H6a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V9z"/><path d="M14 3v6h6M12 12v6M9 15l3 3 3-3"/></svg>Resume (PDF)
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <p>© <span id="year"></span> Ganesh S · Designed & built with care. <span class="privacy-note">This site uses Microsoft Clarity and Google Analytics to understand how visitors use it.</span></p>
+      <a href="#top">Back to top ↑</a>
+    </div>
+  </footer>
+
+  <div class="toast" id="toast">Email copied to clipboard</div>
+  <script src="script.js"></script>
+  <script src="analytics.js"></script>
+</body>
+</html>
