@@ -15,7 +15,7 @@
    ========================================================= */
 const ANALYTICS = {
   clarityId: "zk6zjornr7",   // Microsoft Clarity project ID
-  ga4Id: ""        // e.g. "G-XXXXXXXXXX"
+  ga4Id: "G-KJ2N5LJEZE"      // Google Analytics 4 measurement ID
 };
 
 (() => {
